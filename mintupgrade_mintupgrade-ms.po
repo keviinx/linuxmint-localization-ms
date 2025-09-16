@@ -1,26 +1,26 @@
 # Malay translation for linuxmint
 # Copyright (c) 2025 Rosetta Contributors and Canonical Ltd 2025
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# Keviindran Ramachandran <keviinx@yahoo.com>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2023-09-26 14:10+0100\n"
-"PO-Revision-Date: 2025-08-29 18:18+0000\n"
-"Last-Translator: Keviindran Ramachandran <Unknown>\n"
+"PO-Revision-Date: 2025-09-16 22:33+0200\n"
+"Last-Translator: Keviindran Ramachandran <keviinx@yahoo.com>\n"
 "Language-Team: Malay <ms@li.org>\n"
+"Language: ms\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-09-10 23:00+0000\n"
-"X-Generator: Launchpad (build 3db21b43f675a56d404bb64e0fe1fcfc5dc01a90)\n"
+"X-Generator: Poedit 3.7\n"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:32
 #, python-format
-msgid ""
-"The package repositories need to point towards the new release (%s/%s)."
+msgid "The package repositories need to point towards the new release (%s/%s)."
 msgstr "Repositori pakej perlu menunjuk ke keluaran baharu (%s/%s)."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:34
@@ -46,8 +46,7 @@ msgid "Checking your version of Linux Mint..."
 msgstr "Menyemak versi Linux Mint anda..."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:151
-msgid ""
-"Your version of Linux Mint is unknown. /etc/linuxmint/info is missing."
+msgid "Your version of Linux Mint is unknown. /etc/linuxmint/info is missing."
 msgstr "Versi Linux Mint anda tidak diketahui. /etc/linuxmint/info tiada."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:168
@@ -122,83 +121,87 @@ msgid ""
 "Your operating system is not up to date. Apply available updates before "
 "attempting the upgrade."
 msgstr ""
+"Sistem pengendalian anda tidak terkini. Laksanakan kemas kini yang tersedia "
+"sebelum mencuba naik taraf."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:273
 msgid "The following operations need to be performed:"
-msgstr ""
+msgstr "Operasi berikut perlu dilaksanakan:"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:275
 #: usr/lib/linuxmint/mintupgrade/checks.py:499
 msgid "Package"
-msgstr ""
+msgstr "Pakej"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:275
 msgid "Operation"
-msgstr ""
+msgstr "Operasi"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:277
 msgid "needs to be installed"
-msgstr ""
+msgstr "perlu dipasang"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:279
 msgid "needs to be removed"
-msgstr ""
+msgstr "perlu dibuang"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:308
 #: usr/lib/linuxmint/mintupgrade/checks.py:588
 msgid "Package repositories"
-msgstr ""
+msgstr "Repositori pakej"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:308
 msgid "Checking package repositories..."
-msgstr ""
+msgstr "Memeriksa repositori pakej..."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:322
 msgid ""
 "The following sources are defined in DEB822 format. This format isn't "
 "supported yet."
 msgstr ""
+"Sumber berikut ditakrifkan dalam format DEB822. Format ini belum disokong."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:328
 msgid "Backup and then delete these files to continue."
-msgstr ""
+msgstr "Sandarkan dan kemudian padamkan fail ini untuk meneruskan."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:356
 msgid ""
 "The following repositories do not explicitly support your version of Linux "
 "Mint."
 msgstr ""
+"Repositori berikut tidak menyokong versi Linux Mint anda secara eksplisit."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:364
 msgid "These repositories need to be disabled."
-msgstr ""
+msgstr "Repositori ini perlu dinyahaktifkan."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:377
 msgid "Your APT policy is incorrect."
-msgstr ""
+msgstr "Polisi APT anda tidak betul."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:378
 msgid "Reboot your computer."
-msgstr ""
+msgstr "Mulakan semula komputer anda."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:401
 #, python-format
 msgid "%s is unreachable"
-msgstr ""
+msgstr "%s tidak dapat dihubungi"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:406
 #, python-format
 msgid "%s is not up to date. Switch to a different mirror."
-msgstr ""
+msgstr "%s tidak terkini. Tukar ke cermin (mirror) lain."
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:418
 #, python-format
 msgid "%s does not support %s"
-msgstr ""
+msgstr "%s tidak menyokong %s"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:422
 msgid "The following problems were found:"
-msgstr ""
+msgstr "Masalah berikut telah ditemui:"
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:464
 msgid "Held packages"
@@ -225,8 +228,7 @@ msgid "Looking for foreign packages..."
 msgstr ""
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:497
-msgid ""
-"The following packages need to be downgraded back to official versions:"
+msgid "The following packages need to be downgraded back to official versions:"
 msgstr ""
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:499
@@ -446,8 +448,8 @@ msgstr ""
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:1031
 msgid ""
-"To ensure a successful boot, the upgrade tool restored your original "
-"/etc/fstab"
+"To ensure a successful boot, the upgrade tool restored your original /etc/"
+"fstab"
 msgstr ""
 
 #: usr/lib/linuxmint/mintupgrade/checks.py:1032
