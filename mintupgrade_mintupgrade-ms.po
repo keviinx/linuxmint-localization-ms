@@ -1,0 +1,593 @@
+# Malay translation for linuxmint
+# Copyright (c) 2025 Rosetta Contributors and Canonical Ltd 2025
+# This file is distributed under the same license as the linuxmint package.
+# Keviindran Ramachandran <keviinx@yahoo.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2023-09-26 14:10+0100\n"
+"PO-Revision-Date: 2025-09-19 09:08+0200\n"
+"Last-Translator: Keviindran Ramachandran <keviinx@yahoo.com>\n"
+"Language-Team: Malay <ms@li.org>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2025-09-10 23:00+0000\n"
+"X-Generator: Poedit 3.7\n"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:32
+#, python-format
+msgid "The package repositories need to point towards the new release (%s/%s)."
+msgstr "Repositori pakej perlu menunjuk ke keluaran baharu (%s/%s)."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:34
+msgid "This should have be done by the Upgrade Tool already."
+msgstr "Ini sepatutnya telah dilakukan oleh Alat Naik Taraf."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:35
+msgid "Were the repositories modified since?"
+msgstr "Adakah repositori telah diubah sejak itu?"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:36
+msgid "Re-run the Upgrade tool so that it migrates the repositories again."
+msgstr ""
+"Jalankan semula Alat Naik Taraf supaya ia memigrasikan repositori sekali "
+"lagi."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:143
+msgid "Linux Mint version"
+msgstr "Versi Linux Mint"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:143
+msgid "Checking your version of Linux Mint..."
+msgstr "Menyemak versi Linux Mint anda..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:151
+msgid "Your version of Linux Mint is unknown. /etc/linuxmint/info is missing."
+msgstr "Versi Linux Mint anda tidak diketahui. /etc/linuxmint/info tiada."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:168
+#, python-format
+msgid "Your version of Linux Mint is '%s'. Only %s can be upgraded to %s."
+msgstr ""
+"Versi Linux Mint anda ialah '%s'. Hanya %s boleh dinaik taraf kepada %s."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:174
+#, python-format
+msgid "Your edition of Linux Mint is '%s'. It cannot be upgraded to %s."
+msgstr ""
+"Edisi Linux Mint anda ialah '%s'. Ia tidak boleh dinaik taraf kepada %s."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:181
+msgid "Power source"
+msgstr "Sumber kuasa"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:181
+msgid "Checking the power source..."
+msgstr "Menyemak sumber kuasa..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:186
+msgid "Connect the computer to a power source before attempting to upgrade."
+msgstr "Sambungkan komputer kepada sumber kuasa sebelum cuba menaik taraf."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:192
+msgid "System snapshots"
+msgstr "Snapshot sistem"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:192
+msgid "Checking system snapshots..."
+msgstr "Sedang menyemak snapshot sistem..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:197
+msgid ""
+"If the upgrade isn't successful, a system snapshot will allow you to go back "
+"in time and revert all the changes."
+msgstr ""
+"Jika naik taraf tidak berjaya, snapshot sistem akan membolehkan anda kembali "
+"ke masa lalu dan membalikkan semua perubahan."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:198
+msgid "Press 'Fix' to perform a system snapshot."
+msgstr "Tekan 'Baiki' untuk melakukan snapshot sistem."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:214
+msgid "APT cache"
+msgstr "Cache APT"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:214
+msgid "Checking the APT cache..."
+msgstr "Sedang menyemak cache APT..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:232
+msgid ""
+"Your package cache can't refresh correctly. Run 'apt update' and fix the "
+"errors it displays."
+msgstr ""
+"Cache pakej anda tidak dapat disegar semula dengan betul. Jalankan 'apt "
+"update' dan baiki ralat yang dipaparkannya."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:241
+msgid ""
+"Some of your packages are broken. Run 'apt install -f' to fix the issue."
+msgstr ""
+"Sesetengah pakej anda rosak. Jalankan 'apt install -f' untuk membetulkan "
+"masalah tersebut."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:252
+msgid ""
+"Your operating system is not up to date. Apply available updates before "
+"attempting the upgrade."
+msgstr ""
+"Sistem pengendalian anda tidak terkini. Laksanakan kemas kini yang tersedia "
+"sebelum mencuba naik taraf."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:273
+msgid "The following operations need to be performed:"
+msgstr "Operasi berikut perlu dilaksanakan:"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:275
+#: usr/lib/linuxmint/mintupgrade/checks.py:499
+msgid "Package"
+msgstr "Pakej"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:275
+msgid "Operation"
+msgstr "Operasi"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:277
+msgid "needs to be installed"
+msgstr "perlu dipasang"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:279
+msgid "needs to be removed"
+msgstr "perlu dibuang"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:308
+#: usr/lib/linuxmint/mintupgrade/checks.py:588
+msgid "Package repositories"
+msgstr "Repositori pakej"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:308
+msgid "Checking package repositories..."
+msgstr "Memeriksa repositori pakej..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:322
+msgid ""
+"The following sources are defined in DEB822 format. This format isn't "
+"supported yet."
+msgstr ""
+"Sumber berikut ditakrifkan dalam format DEB822. Format ini belum disokong."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:328
+msgid "Backup and then delete these files to continue."
+msgstr "Sandarkan dan kemudian padamkan fail ini untuk meneruskan."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:356
+msgid ""
+"The following repositories do not explicitly support your version of Linux "
+"Mint."
+msgstr ""
+"Repositori berikut tidak menyokong versi Linux Mint anda secara eksplisit."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:364
+msgid "These repositories need to be disabled."
+msgstr "Repositori ini perlu dinyahaktifkan."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:377
+msgid "Your APT policy is incorrect."
+msgstr "Polisi APT anda tidak betul."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:378
+msgid "Reboot your computer."
+msgstr "Mulakan semula komputer anda."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:401
+#, python-format
+msgid "%s is unreachable"
+msgstr "%s tidak dapat dihubungi"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:406
+#, python-format
+msgid "%s is not up to date. Switch to a different mirror."
+msgstr "%s tidak terkini. Tukar ke cermin (mirror) lain."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:418
+#, python-format
+msgid "%s does not support %s"
+msgstr "%s tidak menyokong %s"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:422
+msgid "The following problems were found:"
+msgstr "Masalah berikut telah ditemui:"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:464
+msgid "Held packages"
+msgstr "Pakej yang ditahan"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:464
+msgid "Looking for held packages..."
+msgstr "Mencari pakej yang ditahan..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:470
+msgid "The following packages are held:"
+msgstr "Pakej berikut ditahan:"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:477
+msgid "Held packages can break the upgrade."
+msgstr "Pakej yang ditahan boleh menyebabkan naik taraf gagal."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:491
+msgid "Foreign packages"
+msgstr "Pakej asing"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:491
+msgid "Looking for foreign packages..."
+msgstr "Mencari pakej asing..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:497
+msgid "The following packages need to be downgraded back to official versions:"
+msgstr "Pakej berikut perlu diturunkan taraf kembali ke versi rasmi:"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:499
+msgid "Installed Version"
+msgstr "Versi Dipasang"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:499
+msgid "Official version"
+msgstr "Versi Rasmi"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:499
+msgid "Archive"
+msgstr "Arkib"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:504
+msgid "Otherwise these packages can create conflicts."
+msgstr "Jika tidak, pakej ini boleh menimbulkan konflik."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:520
+#: usr/lib/linuxmint/mintupgrade/checks.py:556
+msgid "Orphan packages"
+msgstr "Pakej yatim"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:520
+msgid "Looking for orphan packages..."
+msgstr "Mencari pakej yatim..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:540
+msgid "The following packages do not exist in the repositories:"
+msgstr "Pakej berikut tidak wujud dalam repositori:"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:546
+msgid "In some rare cases orphan packages can interfere with the upgrade."
+msgstr ""
+"Dalam beberapa kes yang jarang berlaku, pakej yatim boleh mengganggu proses "
+"naik taraf."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:547
+msgid ""
+"If you decide to uninstall some of these packages press 'Check again' after "
+"their removal."
+msgstr ""
+"Jika anda memilih untuk menyahpasang sebahagian daripada pakej ini, tekan "
+"'Semak semula' selepas ia dibuang."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:548
+msgid "Press 'OK' to continue with the upgrade."
+msgstr "Tekan 'OK' untuk meneruskan naik taraf."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:556
+msgid "Removing newly orphaned packages..."
+msgstr "Mengalih keluar pakej yatim yang baru..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:588
+msgid "Pointing to the new release..."
+msgstr "Menghala ke keluaran baharu..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:627
+msgid "Upgrade simulation"
+msgstr "Simulasi naik taraf"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:627
+msgid "Simulating upgrade to check hard disk space and potential issues..."
+msgstr ""
+"Mensimulasikan naik taraf untuk memeriksa ruang cakera keras dan potensi "
+"isu..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:666
+msgid "The simulation was not successful."
+msgstr "Simulasi tidak berjaya."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:667
+msgid "Upgrading would remove the following important packages:"
+msgstr "Naik taraf akan membuang pakej penting berikut:"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:668
+msgid "Unwanted removals"
+msgstr "Pembuangan yang tidak diingini"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:672
+msgid ""
+"This is a sign that something is wrong and needs to be fixed before going "
+"further."
+msgstr ""
+"Ini adalah petanda bahawa sesuatu tidak betul dan perlu diperbaiki sebelum "
+"meneruskan."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:674
+msgid "Recommended solution"
+msgstr "Penyelesaian yang disyorkan"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:675
+msgid "Use apt-get in a terminal to troubleshoot and solve the issue."
+msgstr ""
+"Gunakan apt-get dalam terminal untuk memperbaiki dan menyelesaikan masalah."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:676
+msgid "Don't hesitate to seek help on the forums and the chat room."
+msgstr ""
+"Jangan teragak-agak untuk mendapatkan bantuan di forum dan bilik sembang."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:678
+msgid "Additional information"
+msgstr "Maklumat tambahan"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:679
+msgid "The information below might help solve the issue."
+msgstr "Maklumat di bawah mungkin dapat menyelesaikan isu tersebut."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:680
+#: usr/lib/linuxmint/mintupgrade/checks.py:692
+msgid "Kept packages"
+msgstr "Pakej yang disimpan"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:681
+#: usr/lib/linuxmint/mintupgrade/checks.py:696
+msgid "Removed packages"
+msgstr "Pakej yang dibuang"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:682
+#: usr/lib/linuxmint/mintupgrade/checks.py:695
+msgid "Added packages"
+msgstr "Pakej yang ditambah"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:683
+#: usr/lib/linuxmint/mintupgrade/checks.py:691
+#, python-format
+msgid "Packages updated: %d, added: %d , kept: %d, deleted: %d"
+msgstr "Pakej dikemas kini: %d, ditambah: %d, disimpan: %d, dipadam: %d"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:686
+msgid "Upgrading will perform the following changes."
+msgstr "Naik taraf akan melakukan perubahan berikut."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:694
+msgid ""
+"Note: Ideally, no packages should be kept. This might indicate an issue."
+msgstr ""
+"Nota: Sebaik-baiknya, tiada pakej harus disimpan. Ini mungkin menunjukkan "
+"masalah."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:698
+msgid ""
+"Go through the list above and make sure you are happy with the removals "
+"before going further with the upgrade."
+msgstr ""
+"Teliti senarai di atas dan pastikan anda berpuas hati dengan penyinkiran "
+"sebelum meneruskan naik taraf."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:795
+#, python-format
+msgid "You need %s on '%s' but only have %s. You must free an additional %s."
+msgstr ""
+"Anda memerlukan %s pada '%s' tetapi hanya mempunyai %s. Anda mesti "
+"membebaskan %s tambahan."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:799
+#, python-format
+msgid "Download size: %s. Additional space needed: %s."
+msgstr "Saiz muat turunL %s. Ruang tambahan diperlukan: %s."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:805
+msgid "Package download"
+msgstr "Muat turun pakej"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:805
+msgid "Downloading packages..."
+msgstr "Memuat turun pakej..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:817
+msgid "An error occurred while downloading the packages."
+msgstr "Ralat berlaku semasa memuat turun pakej."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:824
+msgid "Session inhibition"
+msgstr "Inhibisi sesi"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:824
+msgid "Inhibiting session..."
+msgstr "Menghalang sesi..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:833
+msgid "Upgrade preparation"
+msgstr "Persediaan naik taraf"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:833
+msgid "Preparing the upgrade..."
+msgstr "Menyediakan naik taraf..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:862
+msgid "Upgrade phase"
+msgstr "Fasa naik taraf"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:862
+msgid "Upgrading the system..."
+msgstr "Menaik taraf sistem..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:879
+#: usr/lib/linuxmint/mintupgrade/checks.py:885
+msgid "An issue was detected during the upgrade."
+msgstr "Satu masalah telah dikesan semasa naik taraf."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:904
+#, python-format
+msgid "%d packages still need to be updated (%d kept, %d deleted)"
+msgstr "%d pakej masih perlu dikemas kini (%d disimpan, %d dipadam)"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:910
+msgid "Final phase"
+msgstr "Fasa akhir"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:910
+msgid "Finalizing the upgrade..."
+msgstr "Memuktamadkan naik taraf..."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:929
+#, python-format
+msgid "%s could not be installed."
+msgstr "%s tidak dapat dipasang."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:936
+msgid "mint-meta-codecs could not be installed."
+msgstr "mint-meta-codecs tidak dapat dipasang."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:944
+#: usr/lib/linuxmint/mintupgrade/checks.py:967
+msgid "The following packages could not be installed:"
+msgstr "Pakej berikut tidak dapat dipasang:"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:1030
+msgid "/etc/fstab was modified during the upgrade."
+msgstr "/etc/fstab telah diubah semasa naik taraf."
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:1031
+msgid ""
+"To ensure a successful boot, the upgrade tool restored your original /etc/"
+"fstab"
+msgstr ""
+"Untuk memastikan boot yang berjaya, alat naik taraf telah memulihkan /etc/"
+"fstab asal anda"
+
+#: usr/lib/linuxmint/mintupgrade/checks.py:1032
+msgid "A copy of the modified file was saved as /etc/fstab.upgraded"
+msgstr ""
+"Satu salinan fail yang diubah telah disimpan sebagai /etc/fstab.upgraded"
+
+#: usr/lib/linuxmint/mintupgrade/mintupgrade.py:63
+#: usr/lib/linuxmint/mintupgrade/mintupgrade.py:285 generate_desktop_files:26
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:16
+msgid "Upgrade Tool"
+msgstr "Alat Naik Taraf"
+
+#: usr/lib/linuxmint/mintupgrade/mintupgrade.py:74
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:2
+#, python-format
+msgid "Upgrade to %s"
+msgstr "Naik taraf ke %s"
+
+#: usr/lib/linuxmint/mintupgrade/mintupgrade.py:90
+msgid "Preferences"
+msgstr "Keutamaan"
+
+#: usr/lib/linuxmint/mintupgrade/mintupgrade.py:95
+#: usr/lib/linuxmint/mintupgrade/mintupgrade.py:284
+msgid "About"
+msgstr "Tentang"
+
+#: usr/lib/linuxmint/mintupgrade/mintupgrade.py:100
+msgid "Quit"
+msgstr "Keluar"
+
+#: usr/lib/linuxmint/mintupgrade/mintupgrade.py:144
+msgid "Phase 1: Preparation"
+msgstr "Fasa 1: Persediaan"
+
+#: usr/lib/linuxmint/mintupgrade/mintupgrade.py:145
+msgid ""
+"A series of tests will now be performed to prepare the computer for the "
+"upgrade."
+msgstr ""
+"Satu siri ujian akan dijalankan sekarang untuk menyediakan komputer bagi "
+"naik taraf."
+
+#: usr/lib/linuxmint/mintupgrade/mintupgrade.py:157
+msgid "Phase 2: Simulation and download"
+msgstr "Fasa 2: Simulasi dan muat turun"
+
+#: usr/lib/linuxmint/mintupgrade/mintupgrade.py:158
+msgid "Your package repositories will now point towards the new release."
+msgstr "Repositori pakej anda kini akan menunjukkan ke keluaran baru."
+
+#: usr/lib/linuxmint/mintupgrade/mintupgrade.py:159
+msgid "A few more tests will be run and package updates will be downloaded."
+msgstr ""
+"Beberapa ujianlagi akan dijalankan dan kemas kini pakej akan dimuat turun."
+
+#: usr/lib/linuxmint/mintupgrade/mintupgrade.py:165
+msgid "Phase 3: Upgrade"
+msgstr "Fasa 3: Naik taraf"
+
+#: usr/lib/linuxmint/mintupgrade/mintupgrade.py:166
+msgid "The packages will now be upgraded."
+msgstr "Pakej-pakej kini akan dinaik taraf."
+
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:3
+msgid ""
+"This program will ask you some questions and upgrade your operating system."
+msgstr ""
+"Program ini akan menanyakan beberapa soalan kepada anda dan menaik taraf "
+"sistem operasi anda."
+
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:4
+msgid "Let's go!"
+msgstr "Mari kita mulakan!"
+
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:5
+msgid "OK"
+msgstr "OK"
+
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:6
+msgid "Fix"
+msgstr "Betulkan"
+
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:7
+msgid "Check again"
+msgstr "Semak semula"
+
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:8
+msgid "The following error occurred:"
+msgstr "Ralat berikut telah berlaku:"
+
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:9
+msgid "The upgrade was successful."
+msgstr "Naik taraf berjaya."
+
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:10
+msgid "Reboot the computer for all the changes to take effect."
+msgstr "Mulakan semula komputer untuk semua perubahan berkuat kuasa."
+
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:11
+msgid "Recent Timeshift snapshot"
+msgstr "Snapshot Timeshift terkini"
+
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:12
+msgid "Applied software updates"
+msgstr "Kemas kini perisian yang telah digunakan"
+
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:13
+msgid ""
+"These requirements are there to guarantee a safe upgrade. Only disable them "
+"if you know what you are doing."
+msgstr ""
+"Keperluan ini wujud untuk menjamin naik taraf yang selamat. Lumpuhkan sahaja "
+"jika anda tahu apa yang anda lakukan."
+
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:14
+msgid "Supported Linux Mint version"
+msgstr "Versi Linux Mint yang disokong"
+
+#: usr/share/linuxmint/mintupgrade/mintupgrade.ui.h:15
+msgid "Requirements"
+msgstr "Keperluan"
