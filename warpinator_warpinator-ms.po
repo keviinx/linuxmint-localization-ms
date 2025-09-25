@@ -8,86 +8,91 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2024-06-12 13:59+0100\n"
-"PO-Revision-Date: 2025-09-19 07:10+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2025-09-25 22:49+0200\n"
+"Last-Translator: Keviindran Ramachandran <keviinx@yahoo.com>\n"
 "Language-Team: Malay <ms@li.org>\n"
+"Language: ms\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2025-09-19 07:12+0000\n"
-"X-Generator: Launchpad (build 299e6cec2b88528c8351aab8852cf896cddc6846)\n"
+"X-Generator: Poedit 3.7\n"
 
 #: resources/group-code.ui:16 src/prefs.py:345
 msgid "Group Code"
-msgstr ""
+msgstr "Kod Kumpulan"
 
 #: resources/group-code.ui:39
 msgid "You cannot communicate with computers that do not use the same code."
 msgstr ""
+"Anda tidak boleh berkomunikasi dengan komputer yang tidak menggunakan kod "
+"yang sama."
 
 #: resources/group-code.ui:49 resources/main-window.ui:51
 msgid "Set code"
-msgstr ""
+msgstr "Tetapkan kod"
 
 #: resources/group-code.ui:93
 msgid "Secure mode:"
-msgstr ""
+msgstr "Mod selamat:"
 
 #: resources/group-code.ui:106 src/prefs.py:683
 msgid "OFF"
-msgstr ""
+msgstr "DIMATIKAN"
 
 #: resources/group-code.ui:148 resources/main-window.ui:129
 #: resources/main-window.ui:1202
 msgid "More information"
-msgstr ""
+msgstr "Maklumat lanjut"
 
 #: resources/main-window.ui:80
 msgid "Secure Mode disabled"
-msgstr ""
+msgstr "Mod Selamat dilumpuhkan"
 
 #: resources/main-window.ui:170
 msgid "Download folder not secure"
-msgstr ""
+msgstr "Folder muat turun tidak selamat"
 
 #: resources/main-window.ui:335
 msgid "No matching results"
-msgstr ""
+msgstr "Tiada hasil yang sepadan"
 
 #: resources/main-window.ui:491
 msgid "Make this remote machine a favorite in the main view"
-msgstr ""
+msgstr "Jadikan mesin jauh ini sebagai kegemaran dalam paparan utama"
 
 #: resources/main-window.ui:565
 msgid "Clear inactive and completed operations"
-msgstr ""
+msgstr "Kosongkan operasi yang tidak aktif dan yang telah selesai"
 
 #: resources/main-window.ui:584
 msgid "Send files"
-msgstr ""
+msgstr "Hantar fail"
 
 #: resources/main-window.ui:610 src/prefs.py:311
 msgid "File Transfers"
-msgstr ""
+msgstr "Pemindahan Fail"
 
 #: resources/main-window.ui:631 src/warpinator.py:1054
 msgid "Online"
-msgstr ""
+msgstr "Dalam talian"
 
 #: resources/main-window.ui:751
 msgid "No other computers found..."
-msgstr ""
+msgstr "Tiada komputer lain dijumpai..."
 
 #: resources/main-window.ui:816
 msgid "Make sure your network connection is active."
-msgstr ""
+msgstr "Pastikan sambungan rangkaian anda aktif."
 
 #: resources/main-window.ui:831
 msgid ""
 "Check your firewall rules.  The port numbers can be changed.  See "
 "preferences for more details."
 msgstr ""
+"Semak peraturan firewall anda.  Nombor port boleh ditukar.  Lihat pilihan "
+"untuk maklumat lanjut."
 
 #. Do not translate 'Warpinator'
 #: resources/main-window.ui:847
@@ -95,49 +100,54 @@ msgid ""
 "Is Warpinator running on any other computers on this network?  If so, make "
 "sure they are all using the same group code in preferences."
 msgstr ""
+"Adakah Warpinator dijalankan pada mana-mana komputer lain dalam rangkaian "
+"ini?  Jika ya, pastikan semuanya menggunakan kod kumpulan yang sama dalam "
+"pilihan."
 
 #: resources/main-window.ui:865
 msgid "Possible solutions:"
-msgstr ""
+msgstr "Penyelesaian yang mungkin:"
 
 #. Do not translate 'Warpinator'
 #: resources/main-window.ui:900
 msgid "Warpinator is also available on:"
-msgstr ""
+msgstr "Warpinator juga tersedia di:"
 
 #: resources/main-window.ui:915
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: resources/main-window.ui:931 resources/main-window.ui:946
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: resources/main-window.ui:1020
 msgid "Initializing, please wait..."
-msgstr ""
+msgstr "Sedang memulakan, sila tungga..."
 
 #: resources/main-window.ui:1078
 msgid "Something went wrong"
-msgstr ""
+msgstr "Sesuatu yang tidak kena telah berlaku"
 
 #: resources/main-window.ui:1153
 msgid "Invalid save location"
-msgstr ""
+msgstr "Lokasi simpanan tidak sah"
 
 #: resources/main-window.ui:1190
 msgid ""
 "This folder is either inaccessible or forbidden to save files to.  Please "
 "select a new location in Preferences and ensure that it is accessible."
 msgstr ""
+"Folder ini sama ada tidak dapat diakses atau dilarang untuk menyimpan fail.  "
+"Sila pilih lokasi baharu dalam Keutamaan dan pastikan ia boleh diakses."
 
 #: resources/main-window.ui:1262
 msgid "Searching for other computers"
-msgstr ""
+msgstr "Mencari komputer lain"
 
 #: resources/main-window.ui:1321
 msgid "Shutting down..."
-msgstr ""
+msgstr "Sedang dimatikan..."
 
 #: resources/main-window.ui:1393
 msgid "Restart required"
@@ -376,7 +386,6 @@ msgstr ""
 msgid "%d file-do-not-translate"
 msgid_plural "%d files"
 msgstr[0] ""
-msgstr[1] ""
 
 #. Translators: Don't need to translate singular, we show the filename if there's only one
 #: src/ops.py:261
@@ -384,7 +393,6 @@ msgstr[1] ""
 msgid "%d file"
 msgid_plural "%d files"
 msgstr[0] ""
-msgstr[1] ""
 
 #: src/prefs.py:276
 msgid "Warpinator Preferences"
@@ -437,8 +445,7 @@ msgid "Require approval when files would be overwritten"
 msgstr ""
 
 #: src/prefs.py:338
-msgid ""
-"Display a notification when someone sends (or tries to send) you files"
+msgid "Display a notification when someone sends (or tries to send) you files"
 msgstr ""
 
 #: src/prefs.py:343
@@ -545,21 +552,18 @@ msgstr ""
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: src/util.py:677
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] ""
-msgstr[1] ""
 
 #: src/util.py:682
 #, python-format
 msgid "approximately %d hour"
 msgid_plural "approximately %d hours"
 msgstr[0] ""
-msgstr[1] ""
 
 #: src/util.py:770 src/warpinator.py:585
 msgid "About"
@@ -645,7 +649,6 @@ msgstr ""
 msgid "%d new incoming transfer"
 msgid_plural "%d new incoming transfers"
 msgstr[0] ""
-msgstr[1] ""
 
 #: src/warpinator.py:536 src/warpinator.py:1697
 msgid "Favorites"
