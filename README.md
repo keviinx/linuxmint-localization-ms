@@ -12,3 +12,4 @@
 | Templates   | Translated | Need review | Untranslated | Total |
 | ----------- | ---------- | ----------- | ------------ | ----- |
 | mintupgrade | 122        | 0           | 0            | 122   |
+| warpinator  | 0          | 0           | 177          | 177   |
