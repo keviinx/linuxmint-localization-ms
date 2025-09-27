@@ -1,14 +1,14 @@
 # Malay translation for linuxmint
 # Copyright (c) 2025 Rosetta Contributors and Canonical Ltd 2025
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# Keviindran Ramachandran <keviinx@yahoo.com>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2024-06-12 13:59+0100\n"
-"PO-Revision-Date: 2025-09-25 22:49+0200\n"
+"PO-Revision-Date: 2025-09-27 21:38+0200\n"
 "Last-Translator: Keviindran Ramachandran <keviinx@yahoo.com>\n"
 "Language-Team: Malay <ms@li.org>\n"
 "Language: ms\n"
@@ -151,19 +151,21 @@ msgstr "Sedang dimatikan..."
 
 #: resources/main-window.ui:1393
 msgid "Restart required"
-msgstr ""
+msgstr "Mula semula diperlukan"
 
 #: resources/main-window.ui:1410
 msgid "Warpinator needs to restart before the new save directory can be used"
 msgstr ""
+"Warpinator perlu dimulakan semula sebelum direktori simpanan baharu boleh "
+"digunakan"
 
 #: resources/main-window.ui:1420
 msgid "Restart"
-msgstr ""
+msgstr "Mula semula"
 
 #: resources/main-window.ui:1490
 msgid "Disk Full"
-msgstr ""
+msgstr "Cakera Penuh"
 
 #: resources/main-window.ui:1527
 msgid ""
@@ -171,190 +173,197 @@ msgid ""
 "delete some files, decrease the minimum free space in preferences or choose "
 "a new location."
 msgstr ""
+"Ruang yang ada di lokasi simpanan tidak mencukupi. Anda perlu memadam "
+"beberapa fail, mengurangkan ruang bebas minimum dalam keutamaan atau memilih "
+"lokasi baharu."
 
 #: resources/main-window.ui:1544
 msgid "Empty trash"
-msgstr ""
+msgstr "Kosongkan tong sampah"
 
 #: resources/main-window.ui:1558 src/warpinator.py:563 src/warpinator.py:1643
 msgid "Open save folder"
-msgstr ""
+msgstr "Buka folder simpanan"
 
 #: resources/main-window.ui:1571
 msgid "Examine disk usage"
-msgstr ""
+msgstr "Periksa penggunaan cakera"
 
 #: resources/main-window.ui:1624 src/util.py:774
 #: data/org.x.Warpinator.desktop.in.in:5
 msgid "Send and Receive Files across the Network"
-msgstr ""
+msgstr "Hantar dan Terima Fail merentas Rangkaian"
 
 #. manual-connect dialog: first main section header (bold, big)
 #: resources/manual-connect.ui:22
 msgid "On this computer:"
-msgstr ""
+msgstr "Pada komputer ini:"
 
 #. The user enters an IP address and port in an entry below this
 #: resources/manual-connect.ui:38
 msgid "Enter the address of the device you want to connect to"
-msgstr ""
+msgstr "Masukkan alamat peranti yang anda ingin sambungkan"
 
 #: resources/manual-connect.ui:70
 msgid "Connect"
-msgstr ""
+msgstr "Sambungkan"
 
 #. manual-connect dialog: second main section header (bold, big)
 #: resources/manual-connect.ui:134
 msgid "Alternatively, on the other device:"
-msgstr ""
+msgstr "Sebagai alternatif, pada peranti lain:"
 
 #. A qr code is displayed below this
 #: resources/manual-connect.ui:150
 msgid "Scan this QR code"
-msgstr ""
+msgstr "Imbas kod QR ini"
 
 #. The user's ip address and port are displayed here
 #: resources/manual-connect.ui:198
 msgid "Or connect to the address below"
-msgstr ""
+msgstr "Atau sambungkan ke alamat di bawah"
 
 #: resources/op-item.ui:140
 msgid "Awaiting approval"
-msgstr ""
+msgstr "Menunggu kelulusan"
 
 #: resources/op-item.ui:156
 msgid "Not enough disk space!"
-msgstr ""
+msgstr "Ruang cakera tidak mencukupi!"
 
 #: resources/op-item.ui:219
 msgid "Calculating"
-msgstr ""
+msgstr "Sedang mengira"
 
 #: resources/op-item.ui:259
 msgid "Accept this request"
-msgstr ""
+msgstr "Terima permintaan ini"
 
 #: resources/op-item.ui:274
 msgid "Refuse this request"
-msgstr ""
+msgstr "Tolak permintaan ini"
 
 #: resources/op-item.ui:289
 msgid "Cancel this request"
-msgstr ""
+msgstr "Batal permintaan ini"
 
 #: resources/op-item.ui:304
 msgid "Restart this operation"
-msgstr ""
+msgstr "Mulakan semula operasi ini"
 
 #: resources/op-item.ui:319
 msgid "Pause this operation"
-msgstr ""
+msgstr "Jeda operasi ini"
 
 #: resources/op-item.ui:334
 msgid "Resume this operation"
-msgstr ""
+msgstr "Sambung semula operasi ini"
 
 #: resources/op-item.ui:349
 msgid "Cancel this operation"
-msgstr ""
+msgstr "Batalkan operasi ini"
 
 #: resources/op-item.ui:364
 msgid "Remove this operation from the list"
-msgstr ""
+msgstr "Alih keluar operasi ini daripada senarai"
 
 #: resources/op-item.ui:379
 msgid "Open the containing folder"
-msgstr ""
+msgstr "Buka folder yang mengandungi"
 
 #: resources/prefs-window.ui:9
 msgid "Note on port numbers:"
-msgstr ""
+msgstr "Nota mengenai nombor port:"
 
 #. Do not translate 'Warpinator'
 #: resources/prefs-window.ui:24
 msgctxt "preferences window title"
 msgid "Warpinator Preferences"
-msgstr ""
+msgstr "Keutamaan Warpinator"
 
 #: src/notifications.py:24
 msgid "New incoming files"
-msgstr ""
+msgstr "Fail masuk baharu"
 
 #: src/notifications.py:30
 #, python-format
 msgid ""
 "%(sender_name)s would like to send you %(file_count)d file (%(file_name)s)."
 msgstr ""
+"%(sender_name)s ingin menghantar kepada anda %(file_count)d fail "
+"(%(file_name)s)."
 
 #: src/notifications.py:31
 #, python-format
 msgid "%(sender_name)s would like to send you %(file_count)d files"
-msgstr ""
+msgstr "%(sender_name)s ingin menghantar kepada anda %(file_count)d fail"
 
 #: src/notifications.py:41
 msgid "Accept"
-msgstr ""
+msgstr "Terima"
 
 #: src/notifications.py:42
 msgid "Decline"
-msgstr ""
+msgstr "Tolak"
 
 #: src/notifications.py:56
 #, python-format
 msgid "%(sender_name)s is sending you %(file_count)d file (%(file_name)s)."
 msgstr ""
+"%(sender_name)s sedang menghantar kepada anda %(file_count)d fail "
+"(%(file_name)s)."
 
 #: src/notifications.py:57
 #, python-format
 msgid "%(sender_name)s is sending you %(file_count)d files"
-msgstr ""
+msgstr "%(sender_name)s sedang menghantar kepada anda %(file_count)d fail"
 
 #: src/notifications.py:93
 msgid "Transfer complete"
-msgstr ""
+msgstr "Pemindahan selesai"
 
 #: src/notifications.py:96
 #, python-format
 msgid "The transfer to %s has finished, but with errors"
-msgstr ""
+msgstr "Pemindahan ke %s telah selesai, tetapi dengan ralat"
 
 #: src/notifications.py:98
 #, python-format
 msgid "The transfer to %s has finished successfully"
-msgstr ""
+msgstr "Pemindahan ke %s telah berjaya diselesaikan"
 
 #: src/notifications.py:101
 #, python-format
 msgid "The transfer from %s has finished, but with errors"
-msgstr ""
+msgstr "Pemindahan dari %s telah selesai, tetapi dengan ralat"
 
 #: src/notifications.py:103
 #, python-format
 msgid "The transfer from %s has finished successfully"
-msgstr ""
+msgstr "Pemindahan dari %s telah berjaya diselesaikan"
 
 #: src/notifications.py:137 src/warpinator.py:173 src/warpinator.py:176
 msgid "Transfer failed"
-msgstr ""
+msgstr "Pemindahan gagal"
 
 #: src/notifications.py:140
 #, python-format
 msgid "Something went wrong with the transfer to %s"
-msgstr ""
+msgstr "Ada masalah semasa pemindahan ke %s"
 
 #: src/notifications.py:142
 #, python-format
 msgid "Something went wrong with the transfer from %s"
-msgstr ""
+msgstr "Ada masalah semasa pemindahan dari %s"
 
 #: src/notifications.py:171 src/warpinator.py:167
 msgid "Transfer cancelled"
-msgstr ""
+msgstr "Pemindahan dibatalkan"
 
 #: src/notifications.py:174
 #, python-format
 msgid "Your transfer to %s was cancelled"
-msgstr ""
+msgstr "Pemindahan anda ke %s telah dibatalkan"
 
 #: src/notifications.py:176
 #, python-format
